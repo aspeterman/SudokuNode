@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  padding: 0 25px;
+}
+table {
+
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+table td {
+  padding: 20px
+}
+tr > td:nth-child(3), tr > td:nth-child(6) {
+  border-right-width: 3px;
+}
+tr:nth-child(3) > td, tr:nth-child(6) > td {
+  border-bottom-width: 3px;
+}
